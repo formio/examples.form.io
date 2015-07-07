@@ -96,7 +96,13 @@ angular.module('formio')
 ```
 
 This works by registering a field "type" with the Form.io ```formComponentsProvider```. This is a global registry of
-all fields that can be rendered within the form.
+all fields that can be rendered within the form. You then need to include this javascript file within your HTML file like so...
+
+```
+<script src="components/buttonSelect.js"></script>
+```
+
+Refer to the ```index.html``` to see how this is included...
 
 You also need to change the form within the ```index.html``` to point to your form.
 ```
