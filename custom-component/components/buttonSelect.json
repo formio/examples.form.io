@@ -1,0 +1,25 @@
+{
+  "type": "buttonSelect",
+  "key": "favoriteColor",
+  "label": "Pick your favorite color...",
+  "values": [
+    {
+      "value": "red",
+      "label": "Red"
+    },
+    {
+      "value": "blue",
+      "label": "Blue"
+    },
+    {
+      "value": "green",
+      "label": "Green"
+    }
+  ],
+  "tableView": true,
+  "persistent": true,
+  "unique": false,
+  "protected": false,
+  "defaultValue": "",
+  "input": true
+}
