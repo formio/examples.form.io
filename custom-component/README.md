@@ -35,8 +35,7 @@ example component schema can be found within the ```components/buttonSelect.json
 }
 ```
 
-This should then be injected within the Form you wish to inject.  We have provided a custom script that assists
-you in this effort called ```inject.js```.  To run you will need to run the following within your terminal.
+This should then be injected within the Form you wish to include the field.  To help with this process, we have provided a custom script that assists you in this effort called ```inject.js```.  To run you will need to run the following within your terminal.
 
 ```
 npm install
